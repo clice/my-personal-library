@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+
+{% block title %}Catálogo · My Personal Library{% endblock %}
+{% block page_name %}Catálogo{% endblock %}
+
+{% block content %}
+<section class="page-heading">
+    <div>
+        <span class="eyebrow">Livros únicos</span>
+        <h1>Catálogo</h1>
+        <p>Cada obra aparece uma única vez aqui. As diferentes edições serão vinculadas depois.</p>
+    </div>
+    <a class="button-primary button-link" href="{% url 'book_add' %}" data-modal-url="{% url 'book_add' %}">Adicionar livro</a>
+</section>
+
+<section class="catalog-toolbar">
+    <form class="search-shell search-form" method="get">
+        <span aria-hidden="true">⌕</span>
+        <input type="search" name="q" value="{{ query }}" placeholder="Pesquisar por título, autor ou série...">
+    </form>
+</section>
+
+<section class="data-panel">
+    {% if items %}
+        <div class="data-table-wrap">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Livro</th>
+                        <th>Autor(es)</th>
+                        <th>Idioma original</th>
+                        <th>Série</th>
+                        <th class="actions-column">Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in items %}
+                    <tr>
+                        <td>
+                            <strong>{{ item.title }}</strong>
+                            {% if item.original_title and item.original_title != item.title %}
+                                <small class="table-subtext">{{ item.original_title }}</small>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% for author in item.authors.all %}
+                                {{ author.name }}{% if not forloop.last %}, {% endif %}
+                            {% endfor %}
+                        </td>
+                        <td>
+                            {% if item.original_language %}
+                                {{ item.original_language.name }}
+                            {% else %}
+                                <span class="muted-dash">—</span>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if item.series %}
+                                {{ item.series.name }}
+                                {% if item.series_position %}
+                                    <span class="code-pill">{{ item.series_position }}</span>
+                                {% endif %}
+                            {% else %}
+                                <span class="muted-dash">—</span>
+                            {% endif %}
+                        </td>
+                        <td class="row-actions">
+                            <a href="{% url 'book_edit' item.pk %}" data-modal-url="{% url 'book_edit' item.pk %}">Editar</a>
+                            <a class="danger-link" href="{% url 'book_delete' item.pk %}" data-modal-url="{% url 'book_delete' item.pk %}">Excluir</a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    {% else %}
+        <div class="compact-empty">
+            <div class="empty-illustration" aria-hidden="true">
+                <span></span><span></span><span></span>
+            </div>
+            {% if query %}
+                <h2>Nenhum livro encontrado</h2>
+                <p>Não há resultados para “{{ query }}”.</p>
+            {% else %}
+                <h2>Nenhum livro no catálogo ainda</h2>
+                <p>O primeiro Book cadastrado aparecerá aqui.</p>
+            {% endif %}
+        </div>
+    {% endif %}
+</section>
+{% endblock %}
