@@ -33,14 +33,13 @@ class AuthorForm(forms.ModelForm):
 
     class Meta:
         model = Author
-        fields = ["name", "sort_name", "nationalities"]
+        fields = ["name", "gender", "nationalities"]
         labels = {
             "name": "Nome",
-            "sort_name": "Nome de ordenação",
+            "gender": "Gênero",
         }
         widgets = {
             "name": forms.TextInput(attrs={"placeholder": "Ex.: J. R. R. Tolkien"}),
-            "sort_name": forms.TextInput(attrs={"placeholder": "Ex.: Tolkien, J. R. R."}),
         }
 
 
