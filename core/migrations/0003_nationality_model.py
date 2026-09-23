@@ -1,4 +1,5 @@
 from django.db import migrations, models
+from django.utils import translation
 from django_countries import countries
 
 
@@ -14,11 +15,12 @@ def seed_and_copy_nationalities(apps, schema_editor):
     Author = apps.get_model("core", "Author")
     Nationality = apps.get_model("core", "Nationality")
 
-    for code, name in countries:
-        Nationality.objects.get_or_create(
-            code=code,
-            defaults={"name": str(name), "sovereign_state": ""},
-        )
+    with translation.override("pt-br"):
+        for code, name in countries:
+            Nationality.objects.get_or_create(
+                code=code,
+                defaults={"name": str(name), "sovereign_state": ""},
+            )
 
     for code, name, sovereign_state in SPECIAL_NATIONALITIES:
         Nationality.objects.update_or_create(
