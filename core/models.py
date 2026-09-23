@@ -42,9 +42,10 @@ class Nationality(models.Model):
 
 class Author(models.Model):
     class Gender(models.TextChoices):
-        MALE = "male", "Homem"
-        FEMALE = "female", "Mulher"
+        MALE = "male", "Masculino"
+        FEMALE = "female", "Feminino"
         NON_BINARY = "non_binary", "Não binário"
+        COLLECTIVE = "collective", "Coletivo"
         OTHER = "other", "Outro"
         UNKNOWN = "unknown", "Desconhecido"
 
