@@ -13,6 +13,7 @@ GENDER_MAP = {
     "Male": Author.Gender.MALE,
     "Female": Author.Gender.FEMALE,
     "Non-binary": Author.Gender.NON_BINARY,
+    "Collective": Author.Gender.COLLECTIVE,
     "Other": Author.Gender.OTHER,
     "Unknown": Author.Gender.UNKNOWN,
 }
