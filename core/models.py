@@ -41,6 +41,13 @@ class Nationality(models.Model):
 
 
 class Author(models.Model):
+    class Gender(models.TextChoices):
+        MALE = "male", "Homem"
+        FEMALE = "female", "Mulher"
+        NON_BINARY = "non_binary", "Não binário"
+        OTHER = "other", "Outro"
+        UNKNOWN = "unknown", "Desconhecido"
+
     source_id = models.CharField(
         "ID de origem",
         max_length=20,
@@ -50,11 +57,11 @@ class Author(models.Model):
         editable=False,
     )
     name = models.CharField("nome", max_length=200)
-    sort_name = models.CharField(
-        "nome de ordenação",
-        max_length=200,
+    gender = models.CharField(
+        "gênero",
+        max_length=20,
+        choices=Gender.choices,
         blank=True,
-        help_text="Opcional. Ex.: Tolkien, J. R. R.",
     )
     nationalities = models.ManyToManyField(
         Nationality,
@@ -64,7 +71,7 @@ class Author(models.Model):
     )
 
     class Meta:
-        ordering = ["sort_name", "name"]
+        ordering = ["name"]
         verbose_name = "autor"
         verbose_name_plural = "autores"
 
