@@ -8,75 +8,41 @@
     <div>
         <span class="eyebrow">Visão geral</span>
         <h1>Sua biblioteca, em um só lugar.</h1>
-        <p>
-            Esta é a estrutura visual inicial. Os números, gráficos e conteúdos reais
-            serão adicionados aos poucos, conforme fecharmos o modelo do catálogo.
-        </p>
+        <p>A estrutura está sendo construída por camadas. O catálogo já pode reunir obras, autores, idiomas e séries; edições, leitura e localização física vêm depois.</p>
     </div>
     <div class="hero-art" aria-hidden="true">
-        <div class="book book-one"></div>
-        <div class="book book-two"></div>
-        <div class="book book-three"></div>
+        <div class="book book-one"></div><div class="book book-two"></div><div class="book book-three"></div>
     </div>
 </section>
 
 <section class="metric-grid" aria-label="Resumo da biblioteca">
-    <article class="metric-card accent-purple">
-        <span class="metric-label">Livros</span>
-        <strong>—</strong>
-        <small>Catálogo único</small>
-    </article>
-    <article class="metric-card accent-pink">
-        <span class="metric-label">Edições</span>
-        <strong>—</strong>
-        <small>Exemplares catalogados</small>
-    </article>
-    <article class="metric-card accent-orange">
-        <span class="metric-label">Autores</span>
-        <strong>{{ author_count }}</strong>
-        <small>Autores cadastrados</small>
-    </article>
-    <article class="metric-card accent-mint">
-        <span class="metric-label">Idiomas</span>
-        <strong>{{ language_count }}</strong>
-        <small>Idiomas cadastrados</small>
-    </article>
+    <article class="metric-card accent-purple"><span class="metric-label">Livros</span><strong>{{ book_count }}</strong><small>Books únicos</small></article>
+    <article class="metric-card accent-pink"><span class="metric-label">Edições</span><strong>—</strong><small>Exemplares catalogados</small></article>
+    <article class="metric-card accent-orange"><span class="metric-label">Autores</span><strong>{{ author_count }}</strong><small>Autores cadastrados</small></article>
+    <article class="metric-card accent-mint"><span class="metric-label">Idiomas</span><strong>{{ language_count }}</strong><small>Idiomas cadastrados</small></article>
 </section>
 
 <section class="dashboard-grid">
     <article class="panel panel-large">
         <div class="panel-heading">
-            <div>
-                <span class="eyebrow">Estatísticas</span>
-                <h2>Visão da coleção</h2>
-            </div>
-            <span class="soft-pill">Em breve</span>
+            <div><span class="eyebrow">Estatísticas</span><h2>Visão da coleção</h2></div>
+            <span class="soft-pill">Em construção</span>
         </div>
         <div class="chart-placeholder">
             <div class="fake-bars" aria-hidden="true">
-                <span style="height: 42%"></span>
-                <span style="height: 67%"></span>
-                <span style="height: 51%"></span>
-                <span style="height: 82%"></span>
-                <span style="height: 61%"></span>
-                <span style="height: 74%"></span>
-                <span style="height: 92%"></span>
+                <span style="height: 42%"></span><span style="height: 67%"></span><span style="height: 51%"></span><span style="height: 82%"></span><span style="height: 61%"></span><span style="height: 74%"></span><span style="height: 92%"></span>
             </div>
-            <p>Os gráficos aparecerão aqui quando começarmos a cadastrar os dados.</p>
+            <p>Os gráficos usarão os dados reais conforme adicionarmos leitura, países, edições e estantes.</p>
         </div>
     </article>
 
     <article class="panel">
-        <div class="panel-heading">
-            <div>
-                <span class="eyebrow">Coleção</span>
-                <h2>Estrutura</h2>
-            </div>
-        </div>
+        <div class="panel-heading"><div><span class="eyebrow">Coleção</span><h2>Estrutura</h2></div></div>
         <div class="structure-list">
             <a href="{% url 'catalog' %}"><span class="structure-icon purple">B</span><span><strong>Catálogo</strong><small>Books únicos</small></span><b>›</b></a>
+            <a href="{% url 'series' %}"><span class="structure-icon purple">S</span><span><strong>Séries</strong><small>Sagas e sequências</small></span><b>›</b></a>
             <a href="{% url 'editions' %}"><span class="structure-icon pink">E</span><span><strong>Edições</strong><small>Versões e exemplares</small></span><b>›</b></a>
-            <a href="{% url 'authors' %}"><span class="structure-icon orange">A</span><span><strong>Autores</strong><small>Relações de autoria</small></span><b>›</b></a>
+            <a href="{% url 'authors' %}"><span class="structure-icon orange">A</span><span><strong>Autores</strong><small>Autoria e nacionalidade</small></span><b>›</b></a>
             <a href="{% url 'languages' %}"><span class="structure-icon mint">I</span><span><strong>Idiomas</strong><small>Obra e edição</small></span><b>›</b></a>
         </div>
     </article>
