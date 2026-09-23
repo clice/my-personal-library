@@ -43,10 +43,10 @@
                             {% endif %}
                         </td>
                         <td>
-                            {% if item.nationalities %}
+                            {% if item.nationalities.exists %}
                                 <div class="tag-list">
-                                    {% for country in item.nationalities %}
-                                        <span class="soft-tag">{{ country.name }}</span>
+                                    {% for nationality in item.nationalities.all %}
+                                        <span class="soft-tag">{{ nationality.name }}</span>
                                     {% endfor %}
                                 </div>
                             {% else %}
