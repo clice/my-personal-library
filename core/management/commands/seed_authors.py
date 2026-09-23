@@ -193,6 +193,8 @@ class Command(BaseCommand):
                     authors.append(author)
                     matched_ids.add(author.id)
                     created += 1
+                    if target_gender:
+                        gender_changes += 1
                     changes.append("criar autor")
                 else:
                     matched_ids.add(author.id)
