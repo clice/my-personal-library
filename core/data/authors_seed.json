@@ -1,0 +1,1262 @@
+[
+  {
+    "source_id": "AUT-0210",
+    "name": "Leo Tolstoy",
+    "nationality": "Russia"
+  },
+  {
+    "source_id": "AUT-0114",
+    "name": "Fyodor Dostoyevsky",
+    "nationality": "Russia"
+  },
+  {
+    "source_id": "AUT-0251",
+    "name": "Mikhail Bulgakov",
+    "nationality": "Russia"
+  },
+  {
+    "source_id": "AUT-0342",
+    "name": "Various Authors",
+    "nationality": "Unknown"
+  },
+  {
+    "source_id": "AUT-0151",
+    "name": "Ivan Turgenev",
+    "nationality": "Russia"
+  },
+  {
+    "source_id": "AUT-0010",
+    "name": "Aleksandr Pushkin",
+    "nationality": "Russia"
+  },
+  {
+    "source_id": "AUT-0199",
+    "name": "Ken Follett",
+    "nationality": "Wales"
+  },
+  {
+    "source_id": "AUT-0136",
+    "name": "Hilary Mantel",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-0115",
+    "name": "Gabriel García Márquez",
+    "nationality": "Colombia"
+  },
+  {
+    "source_id": "AUT-0182",
+    "name": "Jorge Luis Borges",
+    "nationality": "Argentina"
+  },
+  {
+    "source_id": "AUT-0190",
+    "name": "Juan Rulfo",
+    "nationality": "Mexico"
+  },
+  {
+    "source_id": "AUT-0106",
+    "name": "Fernando Pessoa",
+    "nationality": "Portugal"
+  },
+  {
+    "source_id": "AUT-0185",
+    "name": "José Saramago",
+    "nationality": "Portugal"
+  },
+  {
+    "source_id": "AUT-0220",
+    "name": "Luís de Camões",
+    "nationality": "Portugal"
+  },
+  {
+    "source_id": "AUT-0055",
+    "name": "Carlos Ruiz Zafón",
+    "nationality": "Spain"
+  },
+  {
+    "source_id": "AUT-0095",
+    "name": "Elena Ferrante",
+    "nationality": "Italy"
+  },
+  {
+    "source_id": "AUT-0330",
+    "name": "Thomas Mann",
+    "nationality": "Germany"
+  },
+  {
+    "source_id": "AUT-0110",
+    "name": "Franz Kafka",
+    "nationality": "Czech Republic"
+  },
+  {
+    "source_id": "AUT-0174",
+    "name": "Johann Wolfgang von Goethe",
+    "nationality": "Germany"
+  },
+  {
+    "source_id": "AUT-0307",
+    "name": "Simone de Beauvoir",
+    "nationality": "France"
+  },
+  {
+    "source_id": "AUT-0349",
+    "name": "Voltaire",
+    "nationality": "France"
+  },
+  {
+    "source_id": "AUT-0343",
+    "name": "Victor Hugo",
+    "nationality": "France"
+  },
+  {
+    "source_id": "AUT-0124",
+    "name": "Gustave Flaubert",
+    "nationality": "France"
+  },
+  {
+    "source_id": "AUT-0008",
+    "name": "Albert Camus",
+    "nationality": "France"
+  },
+  {
+    "source_id": "AUT-0225",
+    "name": "Machado de Assis",
+    "nationality": "Brazil"
+  },
+  {
+    "source_id": "AUT-0019",
+    "name": "Aluísio Azevedo",
+    "nationality": "Brazil"
+  },
+  {
+    "source_id": "AUT-0146",
+    "name": "Inglês de Sousa",
+    "nationality": "Brazil"
+  },
+  {
+    "source_id": "AUT-0183",
+    "name": "José de Alencar",
+    "nationality": "Brazil"
+  },
+  {
+    "source_id": "AUT-0121",
+    "name": "Graciliano Ramos",
+    "nationality": "Brazil"
+  },
+  {
+    "source_id": "AUT-0223",
+    "name": "Lygia Fagundes Telles",
+    "nationality": "Brazil"
+  },
+  {
+    "source_id": "AUT-0181",
+    "name": "Jorge Amado",
+    "nationality": "Brazil"
+  },
+  {
+    "source_id": "AUT-0149",
+    "name": "Itamar Vieira Júnior",
+    "nationality": "Brazil"
+  },
+  {
+    "source_id": "AUT-0308",
+    "name": "Socorro Acioli",
+    "nationality": "Brazil"
+  },
+  {
+    "source_id": "AUT-0034",
+    "name": "Ariano Suassuna",
+    "nationality": "Brazil"
+  },
+  {
+    "source_id": "AUT-0228",
+    "name": "Malba Tahan",
+    "nationality": "Brazil"
+  },
+  {
+    "source_id": "AUT-0229",
+    "name": "Marcos Rey",
+    "nationality": "Brazil"
+  },
+  {
+    "source_id": "AUT-0164",
+    "name": "Jeferson Tenório",
+    "nationality": "Brazil"
+  },
+  {
+    "source_id": "AUT-0144",
+    "name": "Ian Fraser",
+    "nationality": "Brazil"
+  },
+  {
+    "source_id": "AUT-0213",
+    "name": "Lima Barreto",
+    "nationality": "Brazil"
+  },
+  {
+    "source_id": "AUT-0100",
+    "name": "Érico Veríssimo",
+    "nationality": "Brazil"
+  },
+  {
+    "source_id": "AUT-0171",
+    "name": "João Guimarães Rosa",
+    "nationality": "Brazil"
+  },
+  {
+    "source_id": "AUT-0069",
+    "name": "Clarice Lispector",
+    "nationality": "Brazil"
+  },
+  {
+    "source_id": "AUT-0170",
+    "name": "João Cabral de Melo Neto",
+    "nationality": "Brazil"
+  },
+  {
+    "source_id": "AUT-0233",
+    "name": "Mário de Andrade",
+    "nationality": "Brazil"
+  },
+  {
+    "source_id": "AUT-0155",
+    "name": "J. R. R. Tolkien",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-0071",
+    "name": "Colin Duriez",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-0080",
+    "name": "Dante Alighieri",
+    "nationality": "Italy"
+  },
+  {
+    "source_id": "AUT-0357",
+    "name": "William Shakespeare",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-0329",
+    "name": "Thomas Malory",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-0140",
+    "name": "Homer",
+    "nationality": "Ancient Greece"
+  },
+  {
+    "source_id": "AUT-0328",
+    "name": "Thomas Bulfinch",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-0265",
+    "name": "Ovid",
+    "nationality": "Roman Empire"
+  },
+  {
+    "source_id": "AUT-0309",
+    "name": "Sophocles",
+    "nationality": "Ancient Greece"
+  },
+  {
+    "source_id": "AUT-0103",
+    "name": "Euripides",
+    "nationality": "Ancient Greece"
+  },
+  {
+    "source_id": "AUT-0337",
+    "name": "Umberto Eco",
+    "nationality": "Italy"
+  },
+  {
+    "source_id": "AUT-0179",
+    "name": "John Milton",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-0031",
+    "name": "Antoine de Saint-Exupéry",
+    "nationality": "France"
+  },
+  {
+    "source_id": "AUT-0135",
+    "name": "Hermann Hesse",
+    "nationality": "Germany"
+  },
+  {
+    "source_id": "AUT-0099",
+    "name": "Epictetus",
+    "nationality": "Roman Empire"
+  },
+  {
+    "source_id": "AUT-0230",
+    "name": "Marcus Aurelius",
+    "nationality": "Roman Empire"
+  },
+  {
+    "source_id": "AUT-0302",
+    "name": "Seneca",
+    "nationality": "Roman Empire"
+  },
+  {
+    "source_id": "AUT-0188",
+    "name": "Jostein Gaarder",
+    "nationality": "Norway"
+  },
+  {
+    "source_id": "AUT-0107",
+    "name": "Frances Hodgson Burnett",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-0089",
+    "name": "E. T. A. Hoffmann",
+    "nationality": "Germany"
+  },
+  {
+    "source_id": "AUT-0013",
+    "name": "Alexandre Dumas",
+    "nationality": "France"
+  },
+  {
+    "source_id": "AUT-0180",
+    "name": "John Steinbeck",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-0060",
+    "name": "Charles Dickens",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-0161",
+    "name": "Jane Austen",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-0186",
+    "name": "Joseph Conrad",
+    "nationality": "Poland"
+  },
+  {
+    "source_id": "AUT-0353",
+    "name": "William Faulkner",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-0250",
+    "name": "Miguel de Cervantes",
+    "nationality": "Spain"
+  },
+  {
+    "source_id": "AUT-0206",
+    "name": "Laurence Sterne",
+    "nationality": "Ireland"
+  },
+  {
+    "source_id": "AUT-0104",
+    "name": "F. Scott Fitzgerald",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-0264",
+    "name": "Oscar Wilde",
+    "nationality": "Ireland"
+  },
+  {
+    "source_id": "AUT-0159",
+    "name": "James Joyce",
+    "nationality": "Ireland"
+  },
+  {
+    "source_id": "AUT-0097",
+    "name": "Emily Brontë",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-0062",
+    "name": "Charlotte Brontë",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-0237",
+    "name": "Mark Twain",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-0203",
+    "name": "L. Frank Baum",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-0154",
+    "name": "J. M. Barrie",
+    "nationality": "Scotland"
+  },
+  {
+    "source_id": "AUT-0192",
+    "name": "Jules Verne",
+    "nationality": "France"
+  },
+  {
+    "source_id": "AUT-0291",
+    "name": "Robert Louis Stevenson",
+    "nationality": "Scotland"
+  },
+  {
+    "source_id": "AUT-0117",
+    "name": "Gaston Leroux",
+    "nationality": "France"
+  },
+  {
+    "source_id": "AUT-0047",
+    "name": "Bram Stoker",
+    "nationality": "Ireland"
+  },
+  {
+    "source_id": "AUT-0241",
+    "name": "Mary Shelley",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-0134",
+    "name": "Herman Melville",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-0153",
+    "name": "J. K. Rowling",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-0143",
+    "name": "Humphrey Carpenter",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-4001",
+    "name": "Lemony Snicket",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-4002",
+    "name": "C. S. Lewis",
+    "nationality": "Northern Ireland"
+  },
+  {
+    "source_id": "AUT-4003",
+    "name": "George R. R. Martin",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-4004",
+    "name": "Philip Pullman",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-4005",
+    "name": "Rick Riordan",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-4006",
+    "name": "Meg Cabot",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-4007",
+    "name": "Neil Gaiman",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-4008",
+    "name": "Eleanor H. Porter",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-4009",
+    "name": "T. H. White",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-4010",
+    "name": "Terry Pratchett",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-4011",
+    "name": "Jacob Grimm",
+    "nationality": "Germany"
+  },
+  {
+    "source_id": "AUT-4012",
+    "name": "Wilhelm Grimm",
+    "nationality": "Germany"
+  },
+  {
+    "source_id": "AUT-4013",
+    "name": "William Goldman",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-4014",
+    "name": "Eduardo Spohr",
+    "nationality": "Brazil"
+  },
+  {
+    "source_id": "AUT-4015",
+    "name": "Bernard Cornwell",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-4016",
+    "name": "George MacDonald",
+    "nationality": "Scotland"
+  },
+  {
+    "source_id": "AUT-4017",
+    "name": "Samantha Shannon",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-4018",
+    "name": "Harold Schechter",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-4019",
+    "name": "Ilana Casoy",
+    "nationality": "Brazil"
+  },
+  {
+    "source_id": "AUT-4020",
+    "name": "Vincent Di Maio",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-4021",
+    "name": "Ron Franscell",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-4022",
+    "name": "Carol Moreira",
+    "nationality": "Brazil"
+  },
+  {
+    "source_id": "AUT-4023",
+    "name": "Mabê Bonafé",
+    "nationality": "Brazil"
+  },
+  {
+    "source_id": "AUT-4024",
+    "name": "John E. Douglas",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-4025",
+    "name": "Mark Olshaker",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-4026",
+    "name": "Ivan Mizanzuk",
+    "nationality": "Brazil"
+  },
+  {
+    "source_id": "AUT-4027",
+    "name": "Jean Chevalier",
+    "nationality": "France"
+  },
+  {
+    "source_id": "AUT-4028",
+    "name": "Alain Gheerbrant",
+    "nationality": "France"
+  },
+  {
+    "source_id": "AUT-4029",
+    "name": "Robert K. Massie",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-4030",
+    "name": "Svetlana Alexievich",
+    "nationality": "Unknown"
+  },
+  {
+    "source_id": "AUT-4031",
+    "name": "Ron Chernow",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-4033",
+    "name": "Lesley-Ann Jones",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-4034",
+    "name": "Stefan Zweig",
+    "nationality": "Austria"
+  },
+  {
+    "source_id": "AUT-4035",
+    "name": "Patti Smith",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-4036",
+    "name": "Zygmunt Bauman",
+    "nationality": "Poland"
+  },
+  {
+    "source_id": "AUT-4037",
+    "name": "Amos Oz",
+    "nationality": "Israel"
+  },
+  {
+    "source_id": "AUT-4038",
+    "name": "Mary Lynn Bracht",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-4039",
+    "name": "Drauzio Varella",
+    "nationality": "Brazil"
+  },
+  {
+    "source_id": "AUT-4040",
+    "name": "Sigmund Freud",
+    "nationality": "Austria"
+  },
+  {
+    "source_id": "AUT-4041",
+    "name": "Roger Scruton",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-4042",
+    "name": "Carl Sagan",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-4043",
+    "name": "Salman Rushdie",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-4044",
+    "name": "Muriel Barbery",
+    "nationality": "France"
+  },
+  {
+    "source_id": "AUT-4045",
+    "name": "Steven Naifeh",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-4046",
+    "name": "Gregory White Smith",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-4047",
+    "name": "Vladimir Nabokov",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-4048",
+    "name": "Frank Herbert",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-4049",
+    "name": "William Golding",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-4050",
+    "name": "Anthony Burgess",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-4051",
+    "name": "George Orwell",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-4052",
+    "name": "Aldous Huxley",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-4053",
+    "name": "Ray Bradbury",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-4054",
+    "name": "Douglas Adams",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-4055",
+    "name": "Stephen King",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-4056",
+    "name": "William Hjortsberg",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-4057",
+    "name": "Edgar Allan Poe",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-4058",
+    "name": "Arthur Conan Doyle",
+    "nationality": "Scotland"
+  },
+  {
+    "source_id": "AUT-4059",
+    "name": "Maurice Leblanc",
+    "nationality": "France"
+  },
+  {
+    "source_id": "AUT-4060",
+    "name": "Sérgio Klein",
+    "nationality": "Brazil"
+  },
+  {
+    "source_id": "AUT-5001",
+    "name": "R. F. Kuang",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5002",
+    "name": "Anthony Doerr",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5003",
+    "name": "Tomi Adeyemi",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5004",
+    "name": "Tracy Deonn",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5005",
+    "name": "James Islington",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5006",
+    "name": "Robert Jordan",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5007",
+    "name": "Brandon Sanderson",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5008",
+    "name": "Coco Mellors",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5009",
+    "name": "Gabrielle Zevin",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5010",
+    "name": "Joe Abercrombie",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5011",
+    "name": "Cixin Liu",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5012",
+    "name": "David Foster Wallace",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5013",
+    "name": "Rainbow Rowell",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5014",
+    "name": "Lauren Myracle",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5015",
+    "name": "Kelly Barnhill",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5016",
+    "name": "Susanna Clarke",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5017",
+    "name": "Mona Awad",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5018",
+    "name": "T. J. Klune",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5019",
+    "name": "Roald Dahl",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5020",
+    "name": "Ursula K. Le Guin",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5021",
+    "name": "Jessica Townsend",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5022",
+    "name": "Matt Haig",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5023",
+    "name": "Mark Z. Danielewski",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5024",
+    "name": "Donna Tartt",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5025",
+    "name": "Harper Lee",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5026",
+    "name": "J. D. Salinger",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5027",
+    "name": "Tove Ditlevsen",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5028",
+    "name": "Jack Kerouac",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5029",
+    "name": "Louisa May Alcott",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5030",
+    "name": "L. M. Montgomery",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5031",
+    "name": "Anne Frank",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5032",
+    "name": "Fredrik Backman",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5033",
+    "name": "Vincent Bugliosi",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5034",
+    "name": "Curt Gentry",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5035",
+    "name": "N. K. Jemisin",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5036",
+    "name": "Ken Liu",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5037",
+    "name": "Joseph Heller",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5038",
+    "name": "Min Jin Lee",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5039",
+    "name": "Sylvia Plath",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5040",
+    "name": "Daphne du Maurier",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5041",
+    "name": "Joyce Carol Oates",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5042",
+    "name": "Richard Osman",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5043",
+    "name": "Taylor Jenkins Reid",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5044",
+    "name": "Charlie Mackesy",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5045",
+    "name": "Yuval Noah Harari",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5046",
+    "name": "Stieg Larsson",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5047",
+    "name": "Simon Sebag Montefiore",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5048",
+    "name": "Eiichiro Oda",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5049",
+    "name": "Kentaro Miura",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5050",
+    "name": "Yoshiyuki Sadamoto",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5051",
+    "name": "Naoko Takeuchi",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5052",
+    "name": "Naoki Urasawa",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5053",
+    "name": "Hiromu Arakawa",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5054",
+    "name": "Yoshihiro Togashi",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5055",
+    "name": "CLAMP",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5056",
+    "name": "Masashi Kishimoto",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5057",
+    "name": "Katsuhiro Otomo",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5058",
+    "name": "Hayao Miyazaki",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5059",
+    "name": "Makoto Shinkai",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5060",
+    "name": "Ranmaru Kotone",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5061",
+    "name": "Takashi Murakami",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5062",
+    "name": "Junji Ito",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5063",
+    "name": "Art Spiegelman",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5064",
+    "name": "Shigeru Mizuki",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5065",
+    "name": "Marjane Satrapi",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5066",
+    "name": "Alan Moore",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5067",
+    "name": "Dave Gibbons",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5068",
+    "name": "Roy Thomas",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5069",
+    "name": "Howard Chaykin",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5070",
+    "name": "Archie Goodwin",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5071",
+    "name": "Brian Azzarello",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5072",
+    "name": "Liv Strömquist",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5073",
+    "name": "Eduardo Damasceno",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5074",
+    "name": "Luís Felipe Garrocho",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5075",
+    "name": "Patrick Rothfuss",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5076",
+    "name": "Emily Henry",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5077",
+    "name": "Aline Bei",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5078",
+    "name": "Carla Madeira",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5079",
+    "name": "Valter Hugo Mãe",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5080",
+    "name": "Henry James",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5081",
+    "name": "Thais Godinho",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5082",
+    "name": "John Jackson Miller",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5083",
+    "name": "Gregory Maguire",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5084",
+    "name": "Gustavo Ávila",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5085",
+    "name": "Alain-Fournier",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5086",
+    "name": "Jeffrey Toobin",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5087",
+    "name": "Richard Kelly",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5088",
+    "name": "James Kahn",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5089",
+    "name": "George Lucas",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5090",
+    "name": "Donald F. Glut",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5091",
+    "name": "David Lloyd",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5092",
+    "name": "Oscar Zárate",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5093",
+    "name": "Eddie Campbell",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5094",
+    "name": "René Goscinny",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5095",
+    "name": "Vitor Cafaggi",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-5096",
+    "name": "Lu Cafaggi",
+    "nationality": ""
+  },
+  {
+    "source_id": "AUT-0039",
+    "name": "Ayn Rand",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-0212",
+    "name": "Lewis Carroll",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-0011",
+    "name": "Aleksandr Solzhenitsyn",
+    "nationality": "Russia"
+  },
+  {
+    "source_id": "AUT-0113",
+    "name": "Friedrich Nietzsche",
+    "nationality": "Germany"
+  },
+  {
+    "source_id": "AUT-0283",
+    "name": "Richard Dawkins",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-0147",
+    "name": "Isaac Asimov",
+    "nationality": "United States"
+  },
+  {
+    "source_id": "AUT-0263",
+    "name": "Orhan Pamuk",
+    "nationality": "Turkey"
+  },
+  {
+    "source_id": "AUT-0346",
+    "name": "Virginia Woolf",
+    "nationality": "England"
+  },
+  {
+    "source_id": "AUT-0232",
+    "name": "Margaret Atwood",
+    "nationality": "Canada"
+  }
+]
