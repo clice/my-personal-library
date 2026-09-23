@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block title %}Idiomas · My Personal Library{% endblock %}
+{% block page_name %}Idiomas{% endblock %}
+
+{% block content %}
+<section class="page-heading">
+    <div>
+        <span class="eyebrow">Organização linguística</span>
+        <h1>Idiomas</h1>
+        <p>Cadastre os idiomas que poderão ser usados futuramente nas obras e edições da biblioteca.</p>
+    </div>
+    <a class="button-primary button-link" href="{% url 'language_add' %}">Adicionar idioma</a>
+</section>
+
+<section class="catalog-toolbar">
+    <form class="search-shell search-form" method="get">
+        <span aria-hidden="true">⌕</span>
+        <input type="search" name="q" value="{{ query }}" placeholder="Pesquisar por nome ou código...">
+    </form>
+</section>
+
+<section class="data-panel">
+    {% if items %}
+        <div class="data-table-wrap">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Idioma</th>
+                        <th>Código</th>
+                        <th class="actions-column">Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in items %}
+                    <tr>
+                        <td><strong>{{ item.name }}</strong></td>
+                        <td>
+                            {% if item.code %}
+                                <span class="code-pill">{{ item.code }}</span>
+                            {% else %}
+                                <span class="muted-dash">—</span>
+                            {% endif %}
+                        </td>
+                        <td class="row-actions">
+                            <a href="{% url 'language_edit' item.pk %}">Editar</a>
+                            <a class="danger-link" href="{% url 'language_delete' item.pk %}">Excluir</a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    {% else %}
+        <div class="compact-empty">
+            <div class="empty-illustration" aria-hidden="true">
+                <span></span><span></span><span></span>
+            </div>
+            {% if query %}
+                <h2>Nenhum idioma encontrado</h2>
+                <p>Não há resultados para “{{ query }}”.</p>
+            {% else %}
+                <h2>Nenhum idioma cadastrado ainda</h2>
+                <p>Quando você adicionar o primeiro idioma, ele aparecerá aqui.</p>
+            {% endif %}
+        </div>
+    {% endif %}
+</section>
+{% endblock %}
