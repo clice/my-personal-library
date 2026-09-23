@@ -1,4 +1,5 @@
 from django.db import models
+from django_countries.fields import CountryField
 
 
 class Language(models.Model):
@@ -29,6 +30,12 @@ class Author(models.Model):
         blank=True,
         help_text="Opcional. Ex.: Tolkien, J. R. R.",
     )
+    nationalities = CountryField(
+        "nacionalidades",
+        multiple=True,
+        blank=True,
+        help_text="Selecione uma ou mais nacionalidades.",
+    )
 
     class Meta:
         ordering = ["sort_name", "name"]
@@ -37,3 +44,59 @@ class Author(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Series(models.Model):
+    name = models.CharField("nome", max_length=200, unique=True)
+
+    class Meta:
+        ordering = ["name"]
+        verbose_name = "série"
+        verbose_name_plural = "séries"
+
+    def __str__(self):
+        return self.name
+
+
+class Book(models.Model):
+    title = models.CharField("título", max_length=300)
+    original_title = models.CharField(
+        "título original",
+        max_length=300,
+        blank=True,
+    )
+    authors = models.ManyToManyField(
+        Author,
+        related_name="books",
+        verbose_name="autores",
+    )
+    original_language = models.ForeignKey(
+        Language,
+        on_delete=models.PROTECT,
+        related_name="original_language_books",
+        verbose_name="idioma original",
+        null=True,
+        blank=True,
+    )
+    series = models.ForeignKey(
+        Series,
+        on_delete=models.SET_NULL,
+        related_name="books",
+        verbose_name="série",
+        null=True,
+        blank=True,
+    )
+    series_position = models.CharField(
+        "posição na série",
+        max_length=30,
+        blank=True,
+        help_text="Opcional. Ex.: 1, 2, 0.5 ou Prequel.",
+    )
+
+    class Meta:
+        ordering = ["title"]
+        verbose_name = "livro"
+        verbose_name_plural = "livros"
+
+    def __str__(self):
+        return self.title
