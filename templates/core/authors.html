@@ -8,25 +8,44 @@
     <div>
         <span class="eyebrow">Pessoas e autoria</span>
         <h1>Autores</h1>
-        <p>Cadastre autores, nacionalidades e acompanhe quantos livros de cada autor já fazem parte do catálogo.</p>
+        <p>Cadastre autores, gênero e nacionalidades e acompanhe quantos livros de cada autor fazem parte do catálogo.</p>
     </div>
     <a class="button-primary button-link" href="{% url 'author_add' %}" data-modal-url="{% url 'author_add' %}">Adicionar autor</a>
 </section>
 
-<section class="catalog-toolbar">
-    <form class="search-shell search-form" method="get">
-        <span aria-hidden="true">⌕</span>
-        <input type="search" name="q" value="{{ query }}" placeholder="Pesquisar autor...">
+<section class="catalog-toolbar authors-toolbar">
+    <form class="authors-controls" method="get">
+        <div class="search-shell">
+            <span aria-hidden="true">⌕</span>
+            <input type="search" name="q" value="{{ query }}" placeholder="Pesquisar por autor ou nacionalidade...">
+        </div>
+
+        <label class="sort-control">
+            <span>Ordenar por</span>
+            <select name="sort" onchange="this.form.submit()">
+                {% for value, label in sort_options %}
+                    <option value="{{ value }}" {% if sort == value %}selected{% endif %}>{{ label }}</option>
+                {% endfor %}
+            </select>
+        </label>
     </form>
 </section>
 
 <section class="data-panel">
     {% if items %}
+        <div class="table-meta">
+            <span>
+                Mostrando {{ page_obj.start_index }}–{{ page_obj.end_index }}
+                de {{ page_obj.paginator.count }} autores
+            </span>
+        </div>
+
         <div class="data-table-wrap">
             <table class="data-table">
                 <thead>
                     <tr>
                         <th>Autor</th>
+                        <th>Gênero</th>
                         <th>Nacionalidade</th>
                         <th>Livros no catálogo</th>
                         <th>Leitura</th>
@@ -36,10 +55,12 @@
                 <tbody>
                     {% for item in items %}
                     <tr>
+                        <td><strong>{{ item.name }}</strong></td>
                         <td>
-                            <strong>{{ item.name }}</strong>
-                            {% if item.sort_name %}
-                                <small class="table-subtext">{{ item.sort_name }}</small>
+                            {% if item.gender %}
+                                <span class="gender-pill gender-{{ item.gender }}">{{ item.get_gender_display }}</span>
+                            {% else %}
+                                <span class="muted-dash">—</span>
                             {% endif %}
                         </td>
                         <td>
@@ -64,6 +85,33 @@
                 </tbody>
             </table>
         </div>
+
+        {% if page_obj.paginator.num_pages > 1 %}
+            <nav class="pagination" aria-label="Paginação de autores">
+                <a
+                    class="pagination-button {% if not page_obj.has_previous %}is-disabled{% endif %}"
+                    {% if page_obj.has_previous %}
+                        href="?q={{ query|urlencode }}&sort={{ sort|urlencode }}&page={{ page_obj.previous_page_number }}"
+                    {% endif %}
+                >‹</a>
+
+                <div class="pagination-pages">
+                    {% for page_number in page_obj.paginator.page_range %}
+                        <a
+                            class="pagination-page {% if page_number == page_obj.number %}is-active{% endif %}"
+                            href="?q={{ query|urlencode }}&sort={{ sort|urlencode }}&page={{ page_number }}"
+                        >{{ page_number }}</a>
+                    {% endfor %}
+                </div>
+
+                <a
+                    class="pagination-button {% if not page_obj.has_next %}is-disabled{% endif %}"
+                    {% if page_obj.has_next %}
+                        href="?q={{ query|urlencode }}&sort={{ sort|urlencode }}&page={{ page_obj.next_page_number }}"
+                    {% endif %}
+                >›</a>
+            </nav>
+        {% endif %}
     {% else %}
         <div class="compact-empty">
             <div class="empty-illustration" aria-hidden="true">
