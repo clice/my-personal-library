@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block title %}Séries · My Personal Library{% endblock %}
+{% block page_name %}Séries{% endblock %}
+
+{% block content %}
+<section class="page-heading">
+    <div>
+        <span class="eyebrow">Organização das obras</span>
+        <h1>Séries</h1>
+        <p>Organize livros que fazem parte de uma mesma série, saga ou sequência.</p>
+    </div>
+    <a class="button-primary button-link" href="{% url 'series_add' %}" data-modal-url="{% url 'series_add' %}">Adicionar série</a>
+</section>
+
+<section class="catalog-toolbar">
+    <form class="search-shell search-form" method="get">
+        <span aria-hidden="true">⌕</span>
+        <input type="search" name="q" value="{{ query }}" placeholder="Pesquisar série...">
+    </form>
+</section>
+
+<section class="data-panel">
+    {% if items %}
+        <div class="data-table-wrap">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Série</th>
+                        <th>Livros no catálogo</th>
+                        <th class="actions-column">Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in items %}
+                    <tr>
+                        <td><strong>{{ item.name }}</strong></td>
+                        <td>{{ item.book_count }}</td>
+                        <td class="row-actions">
+                            <a href="{% url 'series_edit' item.pk %}" data-modal-url="{% url 'series_edit' item.pk %}">Editar</a>
+                            <a class="danger-link" href="{% url 'series_delete' item.pk %}" data-modal-url="{% url 'series_delete' item.pk %}">Excluir</a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    {% else %}
+        <div class="compact-empty">
+            <div class="empty-illustration" aria-hidden="true">
+                <span></span><span></span><span></span>
+            </div>
+            {% if query %}
+                <h2>Nenhuma série encontrada</h2>
+                <p>Não há resultados para “{{ query }}”.</p>
+            {% else %}
+                <h2>Nenhuma série cadastrada ainda</h2>
+                <p>Quando você adicionar a primeira série, ela aparecerá aqui.</p>
+            {% endif %}
+        </div>
+    {% endif %}
+</section>
+{% endblock %}
