@@ -9,6 +9,15 @@ from django.db import transaction
 from core.models import Author, Nationality
 
 
+GENDER_MAP = {
+    "Male": Author.Gender.MALE,
+    "Female": Author.Gender.FEMALE,
+    "Non-binary": Author.Gender.NON_BINARY,
+    "Other": Author.Gender.OTHER,
+    "Unknown": Author.Gender.UNKNOWN,
+}
+
+
 NATIONALITY_MAP = {
     "Ancient Greece": ("HIST-GRC", "Grécia Antiga", ""),
     "Argentina": ("AR", "Argentina", ""),
@@ -108,6 +117,7 @@ class Command(BaseCommand):
         unchanged = 0
         conflicts = 0
         nationality_changes = 0
+        gender_changes = 0
 
         self.stdout.write(
             self.style.MIGRATE_HEADING(
@@ -120,7 +130,9 @@ class Command(BaseCommand):
             for item in seed:
                 source_id = item["source_id"].strip()
                 source_name = item["name"].strip()
+                source_gender = item.get("gender", "").strip()
                 source_nationality = item.get("nationality", "").strip()
+                target_gender = GENDER_MAP.get(source_gender, "")
 
                 source_matches = [
                     author
@@ -171,6 +183,7 @@ class Command(BaseCommand):
                     author = Author(
                         source_id=source_id,
                         name=source_name,
+                        gender=target_gender,
                     )
                     if not dry_run:
                         author.save()
@@ -184,20 +197,33 @@ class Command(BaseCommand):
                 else:
                     matched_ids.add(author.id)
 
+                    update_fields = []
+
                     if author.source_id != source_id:
                         changes.append(
                             f"ID: {author.source_id or '—'} → {source_id}"
                         )
                         author.source_id = source_id
+                        update_fields.append("source_id")
 
                     if author.name != source_name:
                         changes.append(
                             f"nome: {author.name!r} → {source_name!r}"
                         )
                         author.name = source_name
+                        update_fields.append("name")
 
-                    if changes:
-                        author.save(update_fields=["source_id", "name"])
+                    if target_gender and author.gender != target_gender:
+                        changes.append(
+                            f"gênero: {author.get_gender_display() if author.gender else '—'} "
+                            f"→ {dict(Author.Gender.choices)[target_gender]}"
+                        )
+                        author.gender = target_gender
+                        update_fields.append("gender")
+                        gender_changes += 1
+
+                    if update_fields:
+                        author.save(update_fields=update_fields)
 
                 nationality = self._ensure_nationality(source_nationality)
 
@@ -226,6 +252,11 @@ class Command(BaseCommand):
                     self.stdout.write(
                         self.style.SUCCESS(
                             f"CREATE    {source_id} · {source_name}"
+                            + (
+                                f" · {source_gender}"
+                                if source_gender
+                                else ""
+                            )
                             + (
                                 f" · {source_nationality}"
                                 if source_nationality
@@ -277,6 +308,7 @@ class Command(BaseCommand):
                 f"{created} criar, {updated} atualizar, "
                 f"{unchanged} já corretos, "
                 f"{nationality_changes} vínculos de nacionalidade, "
+                f"{gender_changes} gêneros atualizados, "
                 f"{conflicts} conflitos."
             )
         )
