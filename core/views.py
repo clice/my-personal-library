@@ -1,9 +1,29 @@
 from django.contrib import messages
 from django.db.models import Q
+from django.http import JsonResponse
 from django.shortcuts import get_object_or_404, redirect, render
+from django.template.loader import render_to_string
 
 from .forms import AuthorForm, LanguageForm
 from .models import Author, Language
+
+
+def _is_modal_request(request):
+    return request.headers.get("X-Requested-With") == "XMLHttpRequest"
+
+
+def _modal_form_response(request, form, title, eyebrow, submit_label):
+    html = render_to_string(
+        "core/_modal_form.html",
+        {
+            "form": form,
+            "page_title": title,
+            "eyebrow": eyebrow,
+            "submit_label": submit_label,
+        },
+        request=request,
+    )
+    return JsonResponse({"html": html}, status=422 if form.errors else 200)
 
 
 def dashboard(request):
@@ -69,7 +89,18 @@ def author_create(request):
     if request.method == "POST" and form.is_valid():
         form.save()
         messages.success(request, "Autor adicionado com sucesso.")
+        if _is_modal_request(request):
+            return JsonResponse({"success": True})
         return redirect("authors")
+
+    if _is_modal_request(request):
+        return _modal_form_response(
+            request,
+            form,
+            "Adicionar autor",
+            "Autores",
+            "Salvar autor",
+        )
 
     return render(
         request,
@@ -91,7 +122,18 @@ def author_update(request, pk):
     if request.method == "POST" and form.is_valid():
         form.save()
         messages.success(request, "Autor atualizado com sucesso.")
+        if _is_modal_request(request):
+            return JsonResponse({"success": True})
         return redirect("authors")
+
+    if _is_modal_request(request):
+        return _modal_form_response(
+            request,
+            form,
+            "Editar autor",
+            "Autores",
+            "Salvar alterações",
+        )
 
     return render(
         request,
@@ -112,7 +154,21 @@ def author_delete(request, pk):
     if request.method == "POST":
         item.delete()
         messages.success(request, "Autor excluído com sucesso.")
+        if _is_modal_request(request):
+            return JsonResponse({"success": True})
         return redirect("authors")
+
+    if _is_modal_request(request):
+        html = render_to_string(
+            "core/_modal_delete.html",
+            {
+                "item": item,
+                "page_title": "Excluir autor",
+                "eyebrow": "Autores",
+            },
+            request=request,
+        )
+        return JsonResponse({"html": html})
 
     return render(
         request,
@@ -148,7 +204,18 @@ def language_create(request):
     if request.method == "POST" and form.is_valid():
         form.save()
         messages.success(request, "Idioma adicionado com sucesso.")
+        if _is_modal_request(request):
+            return JsonResponse({"success": True})
         return redirect("languages")
+
+    if _is_modal_request(request):
+        return _modal_form_response(
+            request,
+            form,
+            "Adicionar idioma",
+            "Idiomas",
+            "Salvar idioma",
+        )
 
     return render(
         request,
@@ -170,7 +237,18 @@ def language_update(request, pk):
     if request.method == "POST" and form.is_valid():
         form.save()
         messages.success(request, "Idioma atualizado com sucesso.")
+        if _is_modal_request(request):
+            return JsonResponse({"success": True})
         return redirect("languages")
+
+    if _is_modal_request(request):
+        return _modal_form_response(
+            request,
+            form,
+            "Editar idioma",
+            "Idiomas",
+            "Salvar alterações",
+        )
 
     return render(
         request,
@@ -191,7 +269,21 @@ def language_delete(request, pk):
     if request.method == "POST":
         item.delete()
         messages.success(request, "Idioma excluído com sucesso.")
+        if _is_modal_request(request):
+            return JsonResponse({"success": True})
         return redirect("languages")
+
+    if _is_modal_request(request):
+        html = render_to_string(
+            "core/_modal_delete.html",
+            {
+                "item": item,
+                "page_title": "Excluir idioma",
+                "eyebrow": "Idiomas",
+            },
+            request=request,
+        )
+        return JsonResponse({"html": html})
 
     return render(
         request,
