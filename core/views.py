@@ -1,5 +1,6 @@
 from django.contrib import messages
-from django.db.models import Count, Q
+from django.core.paginator import Paginator
+from django.db.models import Count, Min, Q
 from django.http import JsonResponse
 from django.shortcuts import get_object_or_404, redirect, render
 from django.template.loader import render_to_string
@@ -266,17 +267,58 @@ def series_delete(request, pk):
 
 def authors(request):
     query = request.GET.get("q", "").strip()
-    items = Author.objects.annotate(book_count=Count("books", distinct=True))
+    sort = request.GET.get("sort", "name_asc")
+
+    sort_options = {
+        "name_asc": ("name", "Nome: A–Z"),
+        "name_desc": ("-name", "Nome: Z–A"),
+        "nationality_asc": ("nationality_sort", "Nacionalidade: A–Z"),
+        "nationality_desc": ("-nationality_sort", "Nacionalidade: Z–A"),
+        "books_desc": ("-book_count", "Mais livros no catálogo"),
+        "books_asc": ("book_count", "Menos livros no catálogo"),
+        "gender_asc": ("gender", "Gênero"),
+    }
+
+    if sort not in sort_options:
+        sort = "name_asc"
+
+    items = (
+        Author.objects.annotate(
+            book_count=Count("books", distinct=True),
+            nationality_sort=Min("nationalities__name"),
+        )
+        .prefetch_related("nationalities")
+    )
 
     if query:
         items = items.filter(
-            Q(name__icontains=query) | Q(sort_name__icontains=query)
-        )
+            Q(name__icontains=query)
+            | Q(nationalities__name__icontains=query)
+        ).distinct()
+
+    order_by = sort_options[sort][0]
+    if sort.startswith("nationality_"):
+        items = items.order_by(order_by, "name")
+    elif sort.startswith("books_"):
+        items = items.order_by(order_by, "name")
+    else:
+        items = items.order_by(order_by, "name") if order_by != "name" else items.order_by("name")
+
+    paginator = Paginator(items, 25)
+    page_obj = paginator.get_page(request.GET.get("page"))
 
     return render(
         request,
         "core/authors.html",
-        {"items": items, "query": query},
+        {
+            "items": page_obj.object_list,
+            "page_obj": page_obj,
+            "query": query,
+            "sort": sort,
+            "sort_options": [
+                (key, label) for key, (_, label) in sort_options.items()
+            ],
+        },
     )
 
 
