@@ -11,59 +11,32 @@
     <div class="app-shell">
         <aside class="sidebar">
             <div class="brand">
-                <div class="brand-mark" aria-hidden="true">
-                    <span></span><span></span><span></span>
-                </div>
-                <div>
-                    <strong>My Personal</strong>
-                    <span>Library</span>
-                </div>
+                <div class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></div>
+                <div><strong>My Personal</strong><span>Library</span></div>
             </div>
 
             <nav class="nav" aria-label="Navegação principal">
-                <a class="nav-link {% if request.resolver_match.url_name == 'dashboard' %}is-active{% endif %}" href="{% url 'dashboard' %}">
-                    <span class="nav-icon">⌂</span>
-                    Dashboard
-                </a>
-                <a class="nav-link {% if request.resolver_match.url_name == 'catalog' %}is-active{% endif %}" href="{% url 'catalog' %}">
-                    <span class="nav-icon">▤</span>
-                    Catálogo
-                </a>
-                <a class="nav-link {% if request.resolver_match.url_name == 'editions' %}is-active{% endif %}" href="{% url 'editions' %}">
-                    <span class="nav-icon">▥</span>
-                    Edições
-                </a>
-                <a class="nav-link {% if request.resolver_match.url_name == 'authors' or request.resolver_match.url_name == 'author_add' or request.resolver_match.url_name == 'author_edit' or request.resolver_match.url_name == 'author_delete' %}is-active{% endif %}" href="{% url 'authors' %}">
-                    <span class="nav-icon">✦</span>
-                    Autores
-                </a>
-                <a class="nav-link {% if request.resolver_match.url_name == 'languages' or request.resolver_match.url_name == 'language_add' or request.resolver_match.url_name == 'language_edit' or request.resolver_match.url_name == 'language_delete' %}is-active{% endif %}" href="{% url 'languages' %}">
-                    <span class="nav-icon">A</span>
-                    Idiomas
-                </a>
+                <a class="nav-link {% if request.resolver_match.url_name == 'dashboard' %}is-active{% endif %}" href="{% url 'dashboard' %}"><span class="nav-icon">⌂</span>Dashboard</a>
+                <a class="nav-link {% if request.resolver_match.url_name == 'catalog' or request.resolver_match.url_name == 'book_add' or request.resolver_match.url_name == 'book_edit' or request.resolver_match.url_name == 'book_delete' %}is-active{% endif %}" href="{% url 'catalog' %}"><span class="nav-icon">▤</span>Catálogo</a>
+                <a class="nav-link {% if request.resolver_match.url_name == 'series' or request.resolver_match.url_name == 'series_add' or request.resolver_match.url_name == 'series_edit' or request.resolver_match.url_name == 'series_delete' %}is-active{% endif %}" href="{% url 'series' %}"><span class="nav-icon">S</span>Séries</a>
+                <a class="nav-link {% if request.resolver_match.url_name == 'editions' %}is-active{% endif %}" href="{% url 'editions' %}"><span class="nav-icon">▥</span>Edições</a>
+                <a class="nav-link {% if request.resolver_match.url_name == 'authors' or request.resolver_match.url_name == 'author_add' or request.resolver_match.url_name == 'author_edit' or request.resolver_match.url_name == 'author_delete' %}is-active{% endif %}" href="{% url 'authors' %}"><span class="nav-icon">✦</span>Autores</a>
+                <a class="nav-link {% if request.resolver_match.url_name == 'languages' or request.resolver_match.url_name == 'language_add' or request.resolver_match.url_name == 'language_edit' or request.resolver_match.url_name == 'language_delete' %}is-active{% endif %}" href="{% url 'languages' %}"><span class="nav-icon">A</span>Idiomas</a>
             </nav>
 
-            <div class="sidebar-footer">
-                <span class="status-dot"></span>
-                Catálogo em construção
-            </div>
+            <div class="sidebar-footer"><span class="status-dot"></span>Catálogo em construção</div>
         </aside>
 
         <main class="main">
             <header class="topbar">
-                <div>
-                    <p class="topbar-kicker">Biblioteca pessoal</p>
-                    <p class="topbar-title">{% block page_name %}Dashboard{% endblock %}</p>
-                </div>
+                <div><p class="topbar-kicker">Biblioteca pessoal</p><p class="topbar-title">{% block page_name %}Dashboard{% endblock %}</p></div>
                 <div class="topbar-badge">MPL</div>
             </header>
 
             <div class="content">
                 {% if messages %}
                     <div class="messages">
-                        {% for message in messages %}
-                            <div class="message">{{ message }}</div>
-                        {% endfor %}
+                        {% for message in messages %}<div class="message">{{ message }}</div>{% endfor %}
                     </div>
                 {% endif %}
                 {% block content %}{% endblock %}
