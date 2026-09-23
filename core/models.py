@@ -1,5 +1,4 @@
 from django.db import models
-from django_countries.fields import CountryField
 
 
 class Language(models.Model):
@@ -22,6 +21,25 @@ class Language(models.Model):
         return self.name
 
 
+class Nationality(models.Model):
+    name = models.CharField("nome", max_length=120)
+    code = models.CharField("código", max_length=12, unique=True)
+    sovereign_state = models.CharField(
+        "estado soberano",
+        max_length=120,
+        blank=True,
+        help_text="Usado quando a nacionalidade pertence a uma nação constituinte.",
+    )
+
+    class Meta:
+        ordering = ["name"]
+        verbose_name = "nacionalidade"
+        verbose_name_plural = "nacionalidades"
+
+    def __str__(self):
+        return self.name
+
+
 class Author(models.Model):
     name = models.CharField("nome", max_length=200)
     sort_name = models.CharField(
@@ -30,11 +48,11 @@ class Author(models.Model):
         blank=True,
         help_text="Opcional. Ex.: Tolkien, J. R. R.",
     )
-    nationalities = CountryField(
-        "nacionalidades",
-        multiple=True,
+    nationalities = models.ManyToManyField(
+        Nationality,
+        related_name="authors",
+        verbose_name="nacionalidades",
         blank=True,
-        help_text="Selecione uma ou mais nacionalidades.",
     )
 
     class Meta:
