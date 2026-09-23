@@ -12,6 +12,8 @@ services:
       interval: 5s
       timeout: 5s
       retries: 10
+    networks:
+      - library_network
 
   web:
     build: .
@@ -25,6 +27,12 @@ services:
     depends_on:
       db:
         condition: service_healthy
+    networks:
+      - library_network
 
 volumes:
   postgres_data:
+
+networks:
+  library_network:
+    driver: bridge
