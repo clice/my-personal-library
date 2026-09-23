@@ -16,3 +16,25 @@ Project foundation and visual layout only. No collection data or final catalog m
 The Django development server runs on port 8000 inside the container and is exposed on port 8001 on the host to avoid conflicts with other local projects.
 
 The first implementation intentionally contains only the Dashboard, Catalog, Editions, Authors and Languages layout shells.
+
+
+## Synchronize languages
+
+The language seed is based on the controlled vocabulary in the Google Sheet
+`My Library Catalogue — Rebuild`, tab `Reference Data`.
+
+Preview changes without writing to the database:
+
+```bash
+docker compose exec web python manage.py seed_languages --dry-run
+```
+
+Apply the synchronization:
+
+```bash
+docker compose exec web python manage.py seed_languages
+```
+
+The command is idempotent: it recognizes common English/Portuguese labels and code
+variants, corrects recognized records, creates missing languages, preserves unknown
+records, and reports ambiguous duplicates as conflicts instead of deleting them.
