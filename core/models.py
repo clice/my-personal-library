@@ -41,6 +41,14 @@ class Nationality(models.Model):
 
 
 class Author(models.Model):
+    source_id = models.CharField(
+        "ID de origem",
+        max_length=20,
+        unique=True,
+        null=True,
+        blank=True,
+        editable=False,
+    )
     name = models.CharField("nome", max_length=200)
     sort_name = models.CharField(
         "nome de ordenação",
