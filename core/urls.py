@@ -5,7 +5,17 @@ from . import views
 
 urlpatterns = [
     path("", views.dashboard, name="dashboard"),
+
     path("catalog/", views.catalog, name="catalog"),
+    path("catalog/add/", views.book_create, name="book_add"),
+    path("catalog/<int:pk>/edit/", views.book_update, name="book_edit"),
+    path("catalog/<int:pk>/delete/", views.book_delete, name="book_delete"),
+
+    path("series/", views.series_list, name="series"),
+    path("series/add/", views.series_create, name="series_add"),
+    path("series/<int:pk>/edit/", views.series_update, name="series_edit"),
+    path("series/<int:pk>/delete/", views.series_delete, name="series_delete"),
+
     path("editions/", views.editions, name="editions"),
 
     path("authors/", views.authors, name="authors"),
