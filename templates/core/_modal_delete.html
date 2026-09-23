@@ -1,0 +1,18 @@
+<div class="modal-header">
+    <div>
+        <span class="eyebrow">{{ eyebrow }}</span>
+        <h2>{{ page_title }}</h2>
+    </div>
+    <button class="modal-close" type="button" data-modal-close aria-label="Fechar">×</button>
+</div>
+
+<div class="modal-delete-copy">
+    <p>Tem certeza de que deseja excluir <strong>“{{ item }}”</strong>?</p>
+    <p class="modal-muted">Esta ação remove apenas este cadastro.</p>
+</div>
+
+<form method="post" action="{{ request.path }}" class="form-actions modal-actions" data-modal-form>
+    {% csrf_token %}
+    <button class="button-secondary" type="button" data-modal-close>Cancelar</button>
+    <button class="button-danger" type="submit">Excluir</button>
+</form>
