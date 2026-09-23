@@ -1,0 +1,33 @@
+<div class="modal-header">
+    <div>
+        <span class="eyebrow">{{ eyebrow }}</span>
+        <h2>{{ page_title }}</h2>
+    </div>
+    <button class="modal-close" type="button" data-modal-close aria-label="Fechar">×</button>
+</div>
+
+<form method="post" action="{{ request.path }}" class="entity-form modal-form" data-modal-form>
+    {% csrf_token %}
+
+    {% if form.non_field_errors %}
+        <div class="form-errors">{{ form.non_field_errors }}</div>
+    {% endif %}
+
+    {% for field in form %}
+        <div class="form-field">
+            <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+            {{ field }}
+            {% if field.help_text %}
+                <small>{{ field.help_text }}</small>
+            {% endif %}
+            {% for error in field.errors %}
+                <span class="field-error">{{ error }}</span>
+            {% endfor %}
+        </div>
+    {% endfor %}
+
+    <div class="form-actions modal-actions">
+        <button class="button-secondary" type="button" data-modal-close>Cancelar</button>
+        <button class="button-primary" type="submit">{{ submit_label }}</button>
+    </div>
+</form>
