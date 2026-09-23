@@ -33,11 +33,11 @@
                     <span class="nav-icon">▥</span>
                     Edições
                 </a>
-                <a class="nav-link {% if request.resolver_match.url_name == 'authors' %}is-active{% endif %}" href="{% url 'authors' %}">
+                <a class="nav-link {% if request.resolver_match.url_name == 'authors' or request.resolver_match.url_name == 'author_add' or request.resolver_match.url_name == 'author_edit' or request.resolver_match.url_name == 'author_delete' %}is-active{% endif %}" href="{% url 'authors' %}">
                     <span class="nav-icon">✦</span>
                     Autores
                 </a>
-                <a class="nav-link {% if request.resolver_match.url_name == 'languages' %}is-active{% endif %}" href="{% url 'languages' %}">
+                <a class="nav-link {% if request.resolver_match.url_name == 'languages' or request.resolver_match.url_name == 'language_add' or request.resolver_match.url_name == 'language_edit' or request.resolver_match.url_name == 'language_delete' %}is-active{% endif %}" href="{% url 'languages' %}">
                     <span class="nav-icon">A</span>
                     Idiomas
                 </a>
@@ -45,7 +45,7 @@
 
             <div class="sidebar-footer">
                 <span class="status-dot"></span>
-                Estrutura inicial
+                Catálogo em construção
             </div>
         </aside>
 
@@ -59,6 +59,13 @@
             </header>
 
             <div class="content">
+                {% if messages %}
+                    <div class="messages">
+                        {% for message in messages %}
+                            <div class="message">{{ message }}</div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
                 {% block content %}{% endblock %}
             </div>
         </main>
