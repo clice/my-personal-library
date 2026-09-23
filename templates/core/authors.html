@@ -8,7 +8,7 @@
     <div>
         <span class="eyebrow">Pessoas e autoria</span>
         <h1>Autores</h1>
-        <p>Cadastre os autores que serão relacionados futuramente aos livros do catálogo.</p>
+        <p>Cadastre autores, nacionalidades e acompanhe quantos livros de cada autor já fazem parte do catálogo.</p>
     </div>
     <a class="button-primary button-link" href="{% url 'author_add' %}" data-modal-url="{% url 'author_add' %}">Adicionar autor</a>
 </section>
@@ -27,21 +27,34 @@
                 <thead>
                     <tr>
                         <th>Autor</th>
-                        <th>Nome de ordenação</th>
+                        <th>Nacionalidade</th>
+                        <th>Livros no catálogo</th>
+                        <th>Leitura</th>
                         <th class="actions-column">Ações</th>
                     </tr>
                 </thead>
                 <tbody>
                     {% for item in items %}
                     <tr>
-                        <td><strong>{{ item.name }}</strong></td>
                         <td>
+                            <strong>{{ item.name }}</strong>
                             {% if item.sort_name %}
-                                {{ item.sort_name }}
+                                <small class="table-subtext">{{ item.sort_name }}</small>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if item.nationalities %}
+                                <div class="tag-list">
+                                    {% for country in item.nationalities %}
+                                        <span class="soft-tag">{{ country.name }}</span>
+                                    {% endfor %}
+                                </div>
                             {% else %}
                                 <span class="muted-dash">—</span>
                             {% endif %}
                         </td>
+                        <td><strong>{{ item.book_count }}</strong></td>
+                        <td><span class="future-stat" title="Disponível quando adicionarmos o acompanhamento de leitura.">—</span></td>
                         <td class="row-actions">
                             <a href="{% url 'author_edit' item.pk %}" data-modal-url="{% url 'author_edit' item.pk %}">Editar</a>
                             <a class="danger-link" href="{% url 'author_delete' item.pk %}" data-modal-url="{% url 'author_delete' item.pk %}">Excluir</a>
