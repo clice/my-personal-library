@@ -12,10 +12,20 @@
         }
     };
 
+    const announceModalContent = () => {
+        document.dispatchEvent(
+            new CustomEvent("modal:content-loaded", {
+                detail: { root: content },
+            })
+        );
+    };
+
     const bindModalContent = () => {
         content.querySelectorAll("[data-modal-close]").forEach((button) => {
             button.addEventListener("click", closeModal);
         });
+
+        announceModalContent();
 
         const form = content.querySelector("[data-modal-form]");
         if (!form) {
