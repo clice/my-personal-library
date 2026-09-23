@@ -10,7 +10,7 @@
         <h1>Idiomas</h1>
         <p>Cadastre os idiomas que poderão ser usados futuramente nas obras e edições da biblioteca.</p>
     </div>
-    <a class="button-primary button-link" href="{% url 'language_add' %}">Adicionar idioma</a>
+    <a class="button-primary button-link" href="{% url 'language_add' %}" data-modal-url="{% url 'language_add' %}">Adicionar idioma</a>
 </section>
 
 <section class="catalog-toolbar">
@@ -43,8 +43,8 @@
                             {% endif %}
                         </td>
                         <td class="row-actions">
-                            <a href="{% url 'language_edit' item.pk %}">Editar</a>
-                            <a class="danger-link" href="{% url 'language_delete' item.pk %}">Excluir</a>
+                            <a href="{% url 'language_edit' item.pk %}" data-modal-url="{% url 'language_edit' item.pk %}">Editar</a>
+                            <a class="danger-link" href="{% url 'language_delete' item.pk %}" data-modal-url="{% url 'language_delete' item.pk %}">Excluir</a>
                         </td>
                     </tr>
                     {% endfor %}
