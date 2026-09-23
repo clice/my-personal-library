@@ -1,6 +1,6 @@
 from django import forms
 
-from .models import Author, Book, Language, Series
+from .models import Author, Book, Language, Nationality, Series
 
 
 class LanguageForm(forms.ModelForm):
@@ -18,13 +18,25 @@ class LanguageForm(forms.ModelForm):
 
 
 class AuthorForm(forms.ModelForm):
+    nationalities = forms.ModelMultipleChoiceField(
+        queryset=Nationality.objects.all(),
+        required=False,
+        label="Nacionalidade(s)",
+        widget=forms.SelectMultiple(
+            attrs={
+                "data-enhanced-multiselect": "true",
+                "data-search-placeholder": "Digite para buscar uma nacionalidade...",
+                "data-empty-label": "Nenhuma nacionalidade encontrada",
+            }
+        ),
+    )
+
     class Meta:
         model = Author
         fields = ["name", "sort_name", "nationalities"]
         labels = {
             "name": "Nome",
             "sort_name": "Nome de ordenação",
-            "nationalities": "Nacionalidade(s)",
         }
         widgets = {
             "name": forms.TextInput(attrs={"placeholder": "Ex.: J. R. R. Tolkien"}),
@@ -43,6 +55,18 @@ class SeriesForm(forms.ModelForm):
 
 
 class BookForm(forms.ModelForm):
+    authors = forms.ModelMultipleChoiceField(
+        queryset=Author.objects.all(),
+        label="Autor(es)",
+        widget=forms.SelectMultiple(
+            attrs={
+                "data-enhanced-multiselect": "true",
+                "data-search-placeholder": "Digite para buscar um autor...",
+                "data-empty-label": "Nenhum autor encontrado",
+            }
+        ),
+    )
+
     class Meta:
         model = Book
         fields = [
@@ -56,7 +80,6 @@ class BookForm(forms.ModelForm):
         labels = {
             "title": "Título",
             "original_title": "Título original",
-            "authors": "Autor(es)",
             "original_language": "Idioma original",
             "series": "Série",
             "series_position": "Posição na série",
@@ -64,6 +87,5 @@ class BookForm(forms.ModelForm):
         widgets = {
             "title": forms.TextInput(attrs={"placeholder": "Título usado no catálogo"}),
             "original_title": forms.TextInput(attrs={"placeholder": "Opcional"}),
-            "authors": forms.SelectMultiple(attrs={"size": 6}),
             "series_position": forms.TextInput(attrs={"placeholder": "Ex.: 1"}),
         }
