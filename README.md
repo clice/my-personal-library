@@ -38,3 +38,31 @@ docker compose exec web python manage.py seed_languages
 The command is idempotent: it recognizes common English/Portuguese labels and code
 variants, corrects recognized records, creates missing languages, preserves unknown
 records, and reports ambiguous duplicates as conflicts instead of deleting them.
+
+
+## Synchronize authors
+
+The author seed is based on the `Authors` tab in
+`My Library Catalogue — Rebuild`.
+
+The source snapshot currently contains 252 authors. The synchronization imports
+the spreadsheet author ID, canonical name, and nationality when available.
+Reading counts are intentionally not imported because they will be calculated
+from the application's real book/reading relationships.
+
+Preview changes:
+
+```bash
+docker compose exec web python manage.py seed_authors --dry-run
+```
+
+Apply changes:
+
+```bash
+docker compose exec web python manage.py seed_authors
+```
+
+The command matches by spreadsheet author ID first and normalized author name
+second. It preserves existing sort names, additional manually entered
+nationalities, authors not found in the spreadsheet, and leaves source records
+with blank nationality unfilled rather than guessing.
