@@ -3,1512 +3,1764 @@
     "source_id": "AUT-0210",
     "name": "Leo Tolstoy",
     "gender": "Male",
-    "nationality": "Russia"
+    "nationality": "Russia",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0114",
     "name": "Fyodor Dostoyevsky",
     "gender": "Male",
-    "nationality": "Russia"
+    "nationality": "Russia",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0251",
     "name": "Mikhail Bulgakov",
     "gender": "Male",
-    "nationality": "Russia"
+    "nationality": "Russia",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0342",
     "name": "Various Authors",
     "gender": "Other",
-    "nationality": "Unknown"
+    "nationality": "Unknown",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0151",
     "name": "Ivan Turgenev",
     "gender": "Male",
-    "nationality": "Russia"
+    "nationality": "Russia",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0010",
     "name": "Aleksandr Pushkin",
     "gender": "Male",
-    "nationality": "Russia"
+    "nationality": "Russia",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0199",
     "name": "Ken Follett",
     "gender": "Male",
-    "nationality": "Wales"
+    "nationality": "Wales",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0136",
     "name": "Hilary Mantel",
     "gender": "Female",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0115",
     "name": "Gabriel García Márquez",
     "gender": "Male",
-    "nationality": "Colombia"
+    "nationality": "Colombia",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0182",
     "name": "Jorge Luis Borges",
     "gender": "Male",
-    "nationality": "Argentina"
+    "nationality": "Argentina",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0190",
     "name": "Juan Rulfo",
     "gender": "Male",
-    "nationality": "Mexico"
+    "nationality": "Mexico",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0106",
     "name": "Fernando Pessoa",
     "gender": "Male",
-    "nationality": "Portugal"
+    "nationality": "Portugal",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0185",
     "name": "José Saramago",
     "gender": "Male",
-    "nationality": "Portugal"
+    "nationality": "Portugal",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0220",
     "name": "Luís de Camões",
     "gender": "Male",
-    "nationality": "Portugal"
+    "nationality": "Portugal",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0055",
     "name": "Carlos Ruiz Zafón",
     "gender": "Male",
-    "nationality": "Spain"
+    "nationality": "Spain",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0095",
     "name": "Elena Ferrante",
     "gender": "Female",
-    "nationality": "Italy"
+    "nationality": "Italy",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0330",
     "name": "Thomas Mann",
     "gender": "Male",
-    "nationality": "Germany"
+    "nationality": "Germany",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0110",
     "name": "Franz Kafka",
     "gender": "Male",
-    "nationality": "Czech Republic"
+    "nationality": "Czech Republic",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0174",
     "name": "Johann Wolfgang von Goethe",
     "gender": "Male",
-    "nationality": "Germany"
+    "nationality": "Germany",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0307",
     "name": "Simone de Beauvoir",
     "gender": "Female",
-    "nationality": "France"
+    "nationality": "France",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0349",
     "name": "Voltaire",
     "gender": "Male",
-    "nationality": "France"
+    "nationality": "France",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0343",
     "name": "Victor Hugo",
     "gender": "Male",
-    "nationality": "France"
+    "nationality": "France",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0124",
     "name": "Gustave Flaubert",
     "gender": "Male",
-    "nationality": "France"
+    "nationality": "France",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0008",
     "name": "Albert Camus",
     "gender": "Male",
-    "nationality": "France"
+    "nationality": "France",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0225",
     "name": "Machado de Assis",
     "gender": "Male",
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0019",
     "name": "Aluísio Azevedo",
     "gender": "Male",
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0146",
     "name": "Inglês de Sousa",
     "gender": "Male",
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0183",
     "name": "José de Alencar",
     "gender": "Male",
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0121",
     "name": "Graciliano Ramos",
     "gender": "Male",
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0223",
     "name": "Lygia Fagundes Telles",
     "gender": "Female",
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0181",
     "name": "Jorge Amado",
     "gender": "Male",
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0149",
     "name": "Itamar Vieira Júnior",
     "gender": "Male",
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0308",
     "name": "Socorro Acioli",
     "gender": "Female",
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0034",
     "name": "Ariano Suassuna",
     "gender": "Male",
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0228",
     "name": "Malba Tahan",
     "gender": "Male",
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0229",
     "name": "Marcos Rey",
     "gender": "Male",
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0164",
     "name": "Jeferson Tenório",
     "gender": "Male",
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0144",
     "name": "Ian Fraser",
     "gender": "Male",
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0213",
     "name": "Lima Barreto",
     "gender": "Male",
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0100",
     "name": "Érico Veríssimo",
     "gender": "Male",
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0171",
     "name": "João Guimarães Rosa",
     "gender": "Male",
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0069",
     "name": "Clarice Lispector",
     "gender": "Female",
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0170",
     "name": "João Cabral de Melo Neto",
     "gender": "Male",
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0233",
     "name": "Mário de Andrade",
     "gender": "Male",
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0155",
     "name": "J. R. R. Tolkien",
     "gender": "Male",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0071",
     "name": "Colin Duriez",
     "gender": "Male",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0080",
     "name": "Dante Alighieri",
     "gender": "Male",
-    "nationality": "Italy"
+    "nationality": "Italy",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0357",
     "name": "William Shakespeare",
     "gender": "Male",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0329",
     "name": "Thomas Malory",
     "gender": "Male",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0140",
     "name": "Homer",
     "gender": "Male",
-    "nationality": "Ancient Greece"
+    "nationality": "Ancient Greece",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0328",
     "name": "Thomas Bulfinch",
     "gender": "Male",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0265",
     "name": "Ovid",
     "gender": "Male",
-    "nationality": "Roman Empire"
+    "nationality": "Roman Empire",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0309",
     "name": "Sophocles",
     "gender": "Male",
-    "nationality": "Ancient Greece"
+    "nationality": "Ancient Greece",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0103",
     "name": "Euripides",
     "gender": "Male",
-    "nationality": "Ancient Greece"
+    "nationality": "Ancient Greece",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0337",
     "name": "Umberto Eco",
     "gender": "Male",
-    "nationality": "Italy"
+    "nationality": "Italy",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0179",
     "name": "John Milton",
     "gender": "Male",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0031",
     "name": "Antoine de Saint-Exupéry",
     "gender": "Male",
-    "nationality": "France"
+    "nationality": "France",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0135",
     "name": "Hermann Hesse",
     "gender": "Male",
-    "nationality": "Germany"
+    "nationality": "Germany",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0099",
     "name": "Epictetus",
     "gender": "Male",
-    "nationality": "Roman Empire"
+    "nationality": "Roman Empire",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0230",
     "name": "Marcus Aurelius",
     "gender": "Male",
-    "nationality": "Roman Empire"
+    "nationality": "Roman Empire",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0302",
     "name": "Seneca",
     "gender": "Male",
-    "nationality": "Roman Empire"
+    "nationality": "Roman Empire",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0188",
     "name": "Jostein Gaarder",
     "gender": "Male",
-    "nationality": "Norway"
+    "nationality": "Norway",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0107",
     "name": "Frances Hodgson Burnett",
     "gender": "Female",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0089",
     "name": "E. T. A. Hoffmann",
     "gender": "Male",
-    "nationality": "Germany"
+    "nationality": "Germany",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0013",
     "name": "Alexandre Dumas",
     "gender": "Male",
-    "nationality": "France"
+    "nationality": "France",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0180",
     "name": "John Steinbeck",
     "gender": "Male",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0060",
     "name": "Charles Dickens",
     "gender": "Male",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0161",
     "name": "Jane Austen",
     "gender": "Female",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0186",
     "name": "Joseph Conrad",
     "gender": "Male",
-    "nationality": "Poland"
+    "nationality": "Poland",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0353",
     "name": "William Faulkner",
     "gender": "Male",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0250",
     "name": "Miguel de Cervantes",
     "gender": "Male",
-    "nationality": "Spain"
+    "nationality": "Spain",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0206",
     "name": "Laurence Sterne",
     "gender": "Male",
-    "nationality": "Ireland"
+    "nationality": "Ireland",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0104",
     "name": "F. Scott Fitzgerald",
     "gender": "Male",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0264",
     "name": "Oscar Wilde",
     "gender": "Male",
-    "nationality": "Ireland"
+    "nationality": "Ireland",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0159",
     "name": "James Joyce",
     "gender": "Male",
-    "nationality": "Ireland"
+    "nationality": "Ireland",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0097",
     "name": "Emily Brontë",
     "gender": "Female",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0062",
     "name": "Charlotte Brontë",
     "gender": "Female",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0237",
     "name": "Mark Twain",
     "gender": "Male",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0203",
     "name": "L. Frank Baum",
     "gender": "Male",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0154",
     "name": "J. M. Barrie",
     "gender": "Male",
-    "nationality": "Scotland"
+    "nationality": "Scotland",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0192",
     "name": "Jules Verne",
     "gender": "Male",
-    "nationality": "France"
+    "nationality": "France",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0291",
     "name": "Robert Louis Stevenson",
     "gender": "Male",
-    "nationality": "Scotland"
+    "nationality": "Scotland",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0117",
     "name": "Gaston Leroux",
     "gender": "Male",
-    "nationality": "France"
+    "nationality": "France",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0047",
     "name": "Bram Stoker",
     "gender": "Male",
-    "nationality": "Ireland"
+    "nationality": "Ireland",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0241",
     "name": "Mary Shelley",
     "gender": "Female",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0134",
     "name": "Herman Melville",
     "gender": "Male",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0153",
     "name": "J. K. Rowling",
     "gender": "Female",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0143",
     "name": "Humphrey Carpenter",
     "gender": "Male",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4001",
     "name": "Lemony Snicket",
     "gender": "Male",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4002",
     "name": "C. S. Lewis",
     "gender": "Male",
-    "nationality": "Northern Ireland"
+    "nationality": "Northern Ireland",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4003",
     "name": "George R. R. Martin",
     "gender": "Male",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4004",
     "name": "Philip Pullman",
     "gender": "Male",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4005",
     "name": "Rick Riordan",
     "gender": "Male",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4006",
     "name": "Meg Cabot",
     "gender": "Female",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4007",
     "name": "Neil Gaiman",
     "gender": "Male",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4008",
     "name": "Eleanor H. Porter",
     "gender": "Female",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4009",
     "name": "T. H. White",
     "gender": "Male",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4010",
     "name": "Terry Pratchett",
     "gender": "Male",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4011",
     "name": "Jacob Grimm",
     "gender": "Male",
-    "nationality": "Germany"
+    "nationality": "Germany",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4012",
     "name": "Wilhelm Grimm",
     "gender": "Male",
-    "nationality": "Germany"
+    "nationality": "Germany",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4013",
     "name": "William Goldman",
     "gender": "Male",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4014",
     "name": "Eduardo Spohr",
     "gender": "Male",
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4015",
     "name": "Bernard Cornwell",
     "gender": "Male",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4016",
     "name": "George MacDonald",
     "gender": "Male",
-    "nationality": "Scotland"
+    "nationality": "Scotland",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4017",
     "name": "Samantha Shannon",
     "gender": "Female",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4018",
     "name": "Harold Schechter",
     "gender": "Male",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4019",
     "name": "Ilana Casoy",
     "gender": "Female",
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4020",
     "name": "Vincent Di Maio",
     "gender": "Male",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4021",
     "name": "Ron Franscell",
     "gender": "Male",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4022",
     "name": "Carol Moreira",
     "gender": "Female",
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4023",
     "name": "Mabê Bonafé",
     "gender": "Female",
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4024",
     "name": "John E. Douglas",
     "gender": "Male",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4025",
     "name": "Mark Olshaker",
     "gender": "Male",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4026",
     "name": "Ivan Mizanzuk",
     "gender": "Male",
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4027",
     "name": "Jean Chevalier",
     "gender": "Male",
-    "nationality": "France"
+    "nationality": "France",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4028",
     "name": "Alain Gheerbrant",
     "gender": "Male",
-    "nationality": "France"
+    "nationality": "France",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4029",
     "name": "Robert K. Massie",
     "gender": "Male",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4030",
     "name": "Svetlana Alexievich",
     "gender": "Female",
-    "nationality": "Unknown"
+    "nationality": "Unknown",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4031",
     "name": "Ron Chernow",
     "gender": "Male",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4033",
     "name": "Lesley-Ann Jones",
     "gender": "Female",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4034",
     "name": "Stefan Zweig",
     "gender": "Male",
-    "nationality": "Austria"
+    "nationality": "Austria",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4035",
     "name": "Patti Smith",
     "gender": "Female",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4036",
     "name": "Zygmunt Bauman",
     "gender": "Male",
-    "nationality": "Poland"
+    "nationality": "Poland",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4037",
     "name": "Amos Oz",
     "gender": "Male",
-    "nationality": "Israel"
+    "nationality": "Israel",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4038",
     "name": "Mary Lynn Bracht",
     "gender": "Female",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4039",
     "name": "Drauzio Varella",
     "gender": "Male",
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4040",
     "name": "Sigmund Freud",
     "gender": "Male",
-    "nationality": "Austria"
+    "nationality": "Austria",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4041",
     "name": "Roger Scruton",
     "gender": "Male",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4042",
     "name": "Carl Sagan",
     "gender": "Male",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4043",
     "name": "Salman Rushdie",
     "gender": "Male",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4044",
     "name": "Muriel Barbery",
     "gender": "Female",
-    "nationality": "France"
+    "nationality": "France",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4045",
     "name": "Steven Naifeh",
     "gender": "Male",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4046",
     "name": "Gregory White Smith",
     "gender": "Male",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4047",
     "name": "Vladimir Nabokov",
     "gender": "Male",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4048",
     "name": "Frank Herbert",
     "gender": "Male",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4049",
     "name": "William Golding",
     "gender": "Male",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4050",
     "name": "Anthony Burgess",
     "gender": "Male",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4051",
     "name": "George Orwell",
     "gender": "Male",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4052",
     "name": "Aldous Huxley",
     "gender": "Male",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4053",
     "name": "Ray Bradbury",
     "gender": "Male",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4054",
     "name": "Douglas Adams",
     "gender": "Male",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4055",
     "name": "Stephen King",
     "gender": "Male",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4056",
     "name": "William Hjortsberg",
     "gender": "Male",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4057",
     "name": "Edgar Allan Poe",
     "gender": "Male",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4058",
     "name": "Arthur Conan Doyle",
     "gender": "Male",
-    "nationality": "Scotland"
+    "nationality": "Scotland",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4059",
     "name": "Maurice Leblanc",
     "gender": "Male",
-    "nationality": "France"
+    "nationality": "France",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-4060",
     "name": "Sérgio Klein",
     "gender": "Male",
-    "nationality": "Brazil"
+    "nationality": "Brazil",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-5001",
     "name": "R. F. Kuang",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5002",
     "name": "Anthony Doerr",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5003",
     "name": "Tomi Adeyemi",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5004",
     "name": "Tracy Deonn",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5005",
     "name": "James Islington",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5006",
     "name": "Robert Jordan",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5007",
     "name": "Brandon Sanderson",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5008",
     "name": "Coco Mellors",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5009",
     "name": "Gabrielle Zevin",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5010",
     "name": "Joe Abercrombie",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5011",
     "name": "Cixin Liu",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5012",
     "name": "David Foster Wallace",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5013",
     "name": "Rainbow Rowell",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5014",
     "name": "Lauren Myracle",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5015",
     "name": "Kelly Barnhill",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5016",
     "name": "Susanna Clarke",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5017",
     "name": "Mona Awad",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5018",
     "name": "T. J. Klune",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5019",
     "name": "Roald Dahl",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5020",
     "name": "Ursula K. Le Guin",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5021",
     "name": "Jessica Townsend",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5022",
     "name": "Matt Haig",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5023",
     "name": "Mark Z. Danielewski",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5024",
     "name": "Donna Tartt",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5025",
     "name": "Harper Lee",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5026",
     "name": "J. D. Salinger",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5027",
     "name": "Tove Ditlevsen",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5028",
     "name": "Jack Kerouac",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5029",
     "name": "Louisa May Alcott",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5030",
     "name": "L. M. Montgomery",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5031",
     "name": "Anne Frank",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5032",
     "name": "Fredrik Backman",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5033",
     "name": "Vincent Bugliosi",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5034",
     "name": "Curt Gentry",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5035",
     "name": "N. K. Jemisin",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5036",
     "name": "Ken Liu",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5037",
     "name": "Joseph Heller",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5038",
     "name": "Min Jin Lee",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5039",
     "name": "Sylvia Plath",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5040",
     "name": "Daphne du Maurier",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5041",
     "name": "Joyce Carol Oates",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5042",
     "name": "Richard Osman",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5043",
     "name": "Taylor Jenkins Reid",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5044",
     "name": "Charlie Mackesy",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5045",
     "name": "Yuval Noah Harari",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5046",
     "name": "Stieg Larsson",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5047",
     "name": "Simon Sebag Montefiore",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5048",
     "name": "Eiichiro Oda",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5049",
     "name": "Kentaro Miura",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5050",
     "name": "Yoshiyuki Sadamoto",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5051",
     "name": "Naoko Takeuchi",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5052",
     "name": "Naoki Urasawa",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5053",
     "name": "Hiromu Arakawa",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5054",
     "name": "Yoshihiro Togashi",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5055",
     "name": "CLAMP",
-    "gender": "",
-    "nationality": ""
+    "gender": "Collective",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5056",
     "name": "Masashi Kishimoto",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5057",
     "name": "Katsuhiro Otomo",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5058",
     "name": "Hayao Miyazaki",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5059",
     "name": "Makoto Shinkai",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5060",
     "name": "Ranmaru Kotone",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5061",
     "name": "Takashi Murakami",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5062",
     "name": "Junji Ito",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5063",
     "name": "Art Spiegelman",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5064",
     "name": "Shigeru Mizuki",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5065",
     "name": "Marjane Satrapi",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5066",
     "name": "Alan Moore",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5067",
     "name": "Dave Gibbons",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5068",
     "name": "Roy Thomas",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5069",
     "name": "Howard Chaykin",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5070",
     "name": "Archie Goodwin",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5071",
     "name": "Brian Azzarello",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5072",
     "name": "Liv Strömquist",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5073",
     "name": "Eduardo Damasceno",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5074",
     "name": "Luís Felipe Garrocho",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5075",
     "name": "Patrick Rothfuss",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5076",
     "name": "Emily Henry",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5077",
     "name": "Aline Bei",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5078",
     "name": "Carla Madeira",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5079",
     "name": "Valter Hugo Mãe",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5080",
     "name": "Henry James",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5081",
     "name": "Thais Godinho",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5082",
     "name": "John Jackson Miller",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5083",
     "name": "Gregory Maguire",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5084",
     "name": "Gustavo Ávila",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5085",
     "name": "Alain-Fournier",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5086",
     "name": "Jeffrey Toobin",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5087",
     "name": "Richard Kelly",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5088",
     "name": "James Kahn",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5089",
     "name": "George Lucas",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5090",
     "name": "Donald F. Glut",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5091",
     "name": "David Lloyd",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5092",
     "name": "Oscar Zárate",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5093",
     "name": "Eddie Campbell",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5094",
     "name": "René Goscinny",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5095",
     "name": "Vitor Cafaggi",
-    "gender": "",
-    "nationality": ""
+    "gender": "Male",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-5096",
     "name": "Lu Cafaggi",
-    "gender": "",
-    "nationality": ""
+    "gender": "Female",
+    "nationality": "",
+    "gender_origin": "public_research"
   },
   {
     "source_id": "AUT-0039",
     "name": "Ayn Rand",
     "gender": "Female",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0212",
     "name": "Lewis Carroll",
     "gender": "Male",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0011",
     "name": "Aleksandr Solzhenitsyn",
     "gender": "Male",
-    "nationality": "Russia"
+    "nationality": "Russia",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0113",
     "name": "Friedrich Nietzsche",
     "gender": "Male",
-    "nationality": "Germany"
+    "nationality": "Germany",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0283",
     "name": "Richard Dawkins",
     "gender": "Male",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0147",
     "name": "Isaac Asimov",
     "gender": "Male",
-    "nationality": "United States"
+    "nationality": "United States",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0263",
     "name": "Orhan Pamuk",
     "gender": "Male",
-    "nationality": "Turkey"
+    "nationality": "Turkey",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0346",
     "name": "Virginia Woolf",
     "gender": "Female",
-    "nationality": "England"
+    "nationality": "England",
+    "gender_origin": "spreadsheet"
   },
   {
     "source_id": "AUT-0232",
     "name": "Margaret Atwood",
     "gender": "Female",
-    "nationality": "Canada"
+    "nationality": "Canada",
+    "gender_origin": "spreadsheet"
   }
 ]
