@@ -46,7 +46,7 @@ The author seed is based on the `Authors` tab in
 `My Library Catalogue — Rebuild`.
 
 The source snapshot currently contains 252 authors. The synchronization imports
-the spreadsheet author ID, canonical name, gender, and nationality when available.
+the spreadsheet author ID, canonical name, gender, and nationality when available. Gender values that were blank in the spreadsheet were completed from public biographical research and are marked with `gender_origin: public_research` in the seed data; spreadsheet-provided values are marked `gender_origin: spreadsheet`.
 Reading counts are intentionally not imported because they will be calculated
 from the application's real book/reading relationships.
 
@@ -64,4 +64,4 @@ docker compose exec web python manage.py seed_authors
 
 The command matches by spreadsheet author ID first and normalized author name
 second. It preserves existing sort names, additional manually entered
-nationalities, authors not found in the spreadsheet, and leaves source records with blank gender or nationality unfilled rather than guessing.
+nationalities, authors not found in the spreadsheet, and leaves source records with blank nationality unfilled rather than guessing. Gender research is only added when public biographical evidence is sufficient; collective authorship can be classified separately as `Coletivo`.
