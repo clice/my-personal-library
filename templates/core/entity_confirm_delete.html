@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page_title }} · My Personal Library{% endblock %}
+{% block page_name %}{{ page_title }}{% endblock %}
+
+{% block content %}
+<section class="page-heading">
+    <div>
+        <span class="eyebrow">{{ eyebrow }}</span>
+        <h1>{{ page_title }}</h1>
+        <p>Esta ação remove apenas este cadastro.</p>
+    </div>
+</section>
+
+<section class="form-panel danger-panel">
+    <h2>Excluir “{{ item }}”?</h2>
+    <p>Confirme somente se você realmente deseja remover este item.</p>
+
+    <form method="post" class="form-actions">
+        {% csrf_token %}
+        <a class="button-secondary button-link" href="{% url back_url %}">Cancelar</a>
+        <button class="button-danger" type="submit">Excluir</button>
+    </form>
+</section>
+{% endblock %}
