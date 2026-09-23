@@ -10,7 +10,7 @@
         <h1>Autores</h1>
         <p>Cadastre os autores que serão relacionados futuramente aos livros do catálogo.</p>
     </div>
-    <a class="button-primary button-link" href="{% url 'author_add' %}">Adicionar autor</a>
+    <a class="button-primary button-link" href="{% url 'author_add' %}" data-modal-url="{% url 'author_add' %}">Adicionar autor</a>
 </section>
 
 <section class="catalog-toolbar">
@@ -43,8 +43,8 @@
                             {% endif %}
                         </td>
                         <td class="row-actions">
-                            <a href="{% url 'author_edit' item.pk %}">Editar</a>
-                            <a class="danger-link" href="{% url 'author_delete' item.pk %}">Excluir</a>
+                            <a href="{% url 'author_edit' item.pk %}" data-modal-url="{% url 'author_edit' item.pk %}">Editar</a>
+                            <a class="danger-link" href="{% url 'author_delete' item.pk %}" data-modal-url="{% url 'author_delete' item.pk %}">Excluir</a>
                         </td>
                     </tr>
                     {% endfor %}
